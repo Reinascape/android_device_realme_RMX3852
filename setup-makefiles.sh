@@ -13,9 +13,9 @@ fi
 
 set -e
 
-export DEVICE=waffle
-export DEVICE_COMMON=sm8650-common
-export VENDOR=oneplus
+export DEVICE=bale
+export DEVICE_COMMON=sm8635-common
+export VENDOR=realme
 export VENDOR_COMMON=${VENDOR}
 
 "./../../${VENDOR_COMMON}/${DEVICE_COMMON}/setup-makefiles.sh" "$@"

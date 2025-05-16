@@ -8,17 +8,17 @@
 $(call inherit-product, $(SRC_TARGET_DIR)/product/core_64_bit_only.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 
-# Inherit from waffle device
-$(call inherit-product, device/oneplus/waffle/device.mk)
+# Inherit from bale device
+$(call inherit-product, device/realme/bale/device.mk)
 
 # Inherit some common YAAP stuff.
 $(call inherit-product, vendor/yaap/config/common_full_phone.mk)
 
-PRODUCT_NAME := yaap_waffle
-PRODUCT_DEVICE := waffle
-PRODUCT_MANUFACTURER := OnePlus
-PRODUCT_BRAND := OnePlus
-PRODUCT_MODEL := CPH2581
+PRODUCT_NAME := yaap_bale
+PRODUCT_DEVICE := bale
+PRODUCT_MANUFACTURER := realme
+PRODUCT_BRAND := realme
+PRODUCT_MODEL := RMX3852
 
 PRODUCT_AAPT_CONFIG := xxxhdpi
 PRODUCT_AAPT_PREF_CONFIG := xxxhdpi
@@ -31,9 +31,9 @@ TARGET_SCREEN_WIDTH := 1440
 
 # Build info
 PRODUCT_BUILD_PROP_OVERRIDES += \
-    DeviceName=OP595DL1 \
-    DeviceProduct=CPH2581 \
-    SystemDevice=OP595DL1 \
-    SystemName=CPH2581
+    DeviceName=RE5C46L1 \
+    DeviceProduct=RMX3852 \
+    SystemDevice=RE5C46L1 \
+    SystemName=RMX3852
 
-PRODUCT_GMS_CLIENTID_BASE := android-oneplus
+PRODUCT_GMS_CLIENTID_BASE := android-realme
