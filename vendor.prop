@@ -2,11 +2,11 @@
 vendor.sensors.als_correction.grabrect=968 0 1072 104
 
 # Bluetooth
-bluetooth.device.default_name=Realme GT Neo6
+bluetooth.device.default_name=realme GT Neo6
 
 # Graphics
 ro.surface_flinger.set_idle_timer_ms=60
 ro.surface_flinger.set_touch_timer_ms=120
 
 # USB
-vendor.usb.product_string=Realme GT Neo6
+vendor.usb.product_string=realme GT Neo6
