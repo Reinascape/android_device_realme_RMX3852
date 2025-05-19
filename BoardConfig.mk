@@ -18,9 +18,6 @@ TARGET_CHARGE_RATE_MULTIPLIER := 2000
 # Camera
 TARGET_CAMERA_SERVICE_EXT_LIB := //$(DEVICE_PATH):libcameraservice_extension.bale
 
-# Display
-TARGET_SCREEN_DENSITY := 640
-
 # Kernel
 TARGET_KERNEL_CONFIG += vendor/oplus/bale.config
 
