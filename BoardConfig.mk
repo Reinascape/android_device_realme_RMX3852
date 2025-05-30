@@ -10,7 +10,7 @@ include device/realme/sm8635-common/BoardConfigCommon.mk
 DEVICE_PATH := device/realme/bale
 
 # Assert
-TARGET_OTA_ASSERT_DEVICE := OP5929L1|OP595DL1
+TARGET_OTA_ASSERT_DEVICE := RMX3852|RE5C46L1
 
 # Charging
 TARGET_CHARGE_RATE_MULTIPLIER := 2000
