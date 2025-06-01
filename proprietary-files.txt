@@ -1771,4 +1771,6 @@ odm/firmware/ufs/ufs_version_config.xml
 
 # WiFi
 odm/etc/wifi/kiwi/regdb.bin
-odm/etc/wifi/kiwi/regdb_version
+odm/etc/wifi/qca6750/bdwlan.elf
+odm/etc/wifi/qca6750/regdb.bin
+odm/etc/wifi/regdb.bin
