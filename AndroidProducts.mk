@@ -5,9 +5,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/yaap_bale.mk
+    $(LOCAL_DIR)/yaap_RMX3852.mk
 
 COMMON_LUNCH_CHOICES := \
-    yaap_bale-user \
-    yaap_bale-userdebug \
-    yaap_bale-eng
+    yaap_RMX3852-user \
+    yaap_RMX3852-userdebug \
+    yaap_RMX3852-eng

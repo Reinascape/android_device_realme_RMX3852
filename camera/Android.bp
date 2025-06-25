@@ -5,7 +5,7 @@
 //
 
 cc_library_static {
-    name: "libcameraservice_extension.bale",
+    name: "libcameraservice_extension.RMX3852",
     srcs: ["CameraProviderExtension.cpp"],
     include_dirs: [
         "frameworks/av/services/camera/libcameraservice/common"

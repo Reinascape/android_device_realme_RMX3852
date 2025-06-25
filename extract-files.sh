@@ -13,7 +13,7 @@ fi
 
 set -e
 
-export DEVICE=bale
+export DEVICE=RMX3852
 export DEVICE_COMMON=sm8635-common
 export VENDOR=realme
 export VENDOR_COMMON=${VENDOR}

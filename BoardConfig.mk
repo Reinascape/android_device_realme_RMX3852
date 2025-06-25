@@ -7,7 +7,7 @@
 # Include the common OEM chipset BoardConfig.
 include device/realme/sm8635-common/BoardConfigCommon.mk
 
-DEVICE_PATH := device/realme/bale
+DEVICE_PATH := device/realme/RMX3852
 
 # Assert
 TARGET_OTA_ASSERT_DEVICE := RMX3852|RE5C46L1
@@ -16,7 +16,7 @@ TARGET_OTA_ASSERT_DEVICE := RMX3852|RE5C46L1
 TARGET_CHARGE_RATE_MULTIPLIER := 2000
 
 # Camera
-TARGET_CAMERA_SERVICE_EXT_LIB := //$(DEVICE_PATH):libcameraservice_extension.bale
+TARGET_CAMERA_SERVICE_EXT_LIB := //$(DEVICE_PATH):libcameraservice_extension.RMX3852
 
 # Properties
 TARGET_VENDOR_PROP += $(DEVICE_PATH)/vendor.prop
@@ -52,4 +52,4 @@ BOARD_VENDOR_RAMDISK_RECOVERY_KERNEL_MODULES_LOAD  := $(patsubst %,$(RAMDISK_MOD
 BOARD_VENDOR_RAMDISK_KERNEL_MODULES_BLOCKLIST_FILE := $(RAMDISK_MODULES_PATH)/modules.blocklist
 
 # Include the proprietary files BoardConfig.
-include vendor/realme/bale/BoardConfigVendor.mk
+include vendor/realme/RMX3852/BoardConfigVendor.mk

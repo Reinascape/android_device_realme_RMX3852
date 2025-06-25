@@ -47,4 +47,4 @@ PRODUCT_SOONG_NAMESPACES += \
 $(call inherit-product, device/realme/sm8635-common/common.mk)
 
 # Inherit from the proprietary files makefile.
-$(call inherit-product, vendor/realme/bale/bale-vendor.mk)
+$(call inherit-product, vendor/realme/RMX3852/RMX3852-vendor.mk)

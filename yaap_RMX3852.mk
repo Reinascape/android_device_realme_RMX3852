@@ -8,14 +8,14 @@
 $(call inherit-product, $(SRC_TARGET_DIR)/product/core_64_bit_only.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 
-# Inherit from bale device
-$(call inherit-product, device/realme/bale/device.mk)
+# Inherit from RMX3852 device
+$(call inherit-product, device/realme/RMX3852/device.mk)
 
 # Inherit some common YAAP stuff.
 $(call inherit-product, vendor/yaap/config/common_full_phone.mk)
 
-PRODUCT_NAME := yaap_bale
-PRODUCT_DEVICE := bale
+PRODUCT_NAME := yaap_RMX3852
+PRODUCT_DEVICE := RMX3852
 PRODUCT_MANUFACTURER := realme
 PRODUCT_BRAND := realme
 PRODUCT_MODEL := RMX3852
