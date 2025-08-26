@@ -22,9 +22,6 @@ Display | LTPO AMOLED, 6.78 inches, 1264 x 2780 pixels
 
 
 ## What doesn't work
-- Camera/flashlight
 - Vibration
-- FOD
-- LTPO
-- Proper functioning of Bluetooth?
-- Proper functioning of Mobile Network?
+- LTPO (Normal auto refresh rate works)
+- FOD overshadows everything when it's working

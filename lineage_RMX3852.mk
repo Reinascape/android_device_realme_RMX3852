@@ -1,5 +1,5 @@
 #
-# Copyright (C) 2021-2024 The LineageOS Project
+# Copyright (C) 2021-2025 The LineageOS Project
 #
 # SPDX-License-Identifier: Apache-2.0
 #
@@ -7,33 +7,29 @@
 # Inherit from those products. Most specific first.
 $(call inherit-product, $(SRC_TARGET_DIR)/product/core_64_bit_only.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
+$(call inherit-product, vendor/gapps/arm64/arm64-vendor.mk)
 
 # Inherit from RMX3852 device
 $(call inherit-product, device/realme/RMX3852/device.mk)
 
-# Inherit some common YAAP stuff.
-$(call inherit-product, vendor/yaap/config/common_full_phone.mk)
+# Inherit some common Lineage stuff.
+$(call inherit-product, vendor/lineage/config/common_full_phone.mk)
 
-PRODUCT_NAME := yaap_RMX3852
+PRODUCT_NAME := lineage_RMX3852
 PRODUCT_DEVICE := RMX3852
 PRODUCT_MANUFACTURER := realme
 PRODUCT_BRAND := realme
 PRODUCT_MODEL := RMX3852
 
-PRODUCT_AAPT_CONFIG := xxxhdpi
-PRODUCT_AAPT_PREF_CONFIG := xxxhdpi
-PRODUCT_CHARACTERISTICS := nosdcard
+PRODUCT_GMS_CLIENTID_BASE := android-realme
 
-# Boot animation
-scr_resolution := 1080
-TARGET_SCREEN_HEIGHT := 2780
-TARGET_SCREEN_WIDTH := 1264
-
-# Build info
 PRODUCT_BUILD_PROP_OVERRIDES += \
+    BuildFingerprint=realme/RMX3852/RE5C46L1:15/UKQ1.231108.001/U.264c017-72f53f-73833f:user/release-keys \
     DeviceName=RE5C46L1 \
     DeviceProduct=RMX3852 \
     SystemDevice=RE5C46L1 \
     SystemName=RMX3852
 
-PRODUCT_GMS_CLIENTID_BASE := android-realme
+WITH_ADB_INSECURE := true
+TARGET_EXCLUDES_AUDIOFX := true
+TARGET_SUPPORTS_OMX_SERVICE := false
