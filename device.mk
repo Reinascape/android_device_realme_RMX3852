@@ -47,6 +47,12 @@ PRODUCT_SOONG_NAMESPACES += \
 #$(call soong_config_set,OPLUS_LINEAGE_VIBRATOR_HAL,USE_EFFECT_STREAM,true)
 #$(call soong_config_set,OPLUS_LINEAGE_VIBRATOR_HAL,INCLUDE_DIR,$(LOCAL_PATH)/vibrator/include)
 
+# OMX
+TARGET_SUPPORTS_OMX_SERVICE := false
+
+# Disable AudioFX
+TARGET_EXCLUDES_AUDIOFX := true
+
 # Inherit from the common OEM chipset makefile.
 $(call inherit-product, device/realme/sm8635-common/common.mk)
 

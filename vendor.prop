@@ -7,3 +7,6 @@ ro.surface_flinger.set_touch_timer_ms=300
 
 # USB
 vendor.usb.product_string=realme GT Neo6
+
+# Force LTE_CA
+persist.sys.radio.force_lte_ca=true
