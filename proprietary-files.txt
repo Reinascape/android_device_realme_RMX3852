@@ -1782,3 +1782,6 @@ odm/firmware/barca_alarm_ring_RTP_120.bin
 odm/firmware/barca_incoming_ring_RTP_121.bin
 odm/firmware/barca_notice_ring_RTP_122.bin
 odm/firmware/lighthouse.mp3
+
+# Vibrator
+odm/etc/aac_richtap.config
