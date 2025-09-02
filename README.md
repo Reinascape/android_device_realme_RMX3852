@@ -22,8 +22,4 @@ Display | LTPO AMOLED, 6.78 inches, 1264 x 2780 pixels
 
 
 ## What doesn't work
-- LTPO (Normal auto refresh rate works)
-- FOD works in forced mode
-- Equalizers
-- Color profile changes
 - After a while, AOD and DT2W stop working
