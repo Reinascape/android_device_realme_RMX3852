@@ -4,6 +4,9 @@
 # SPDX-License-Identifier: Apache-2.0
 #
 
+# Partitions
+BOARD_SUPER_PARTITION_SIZE := 15569256448
+
 # Include the common OEM chipset BoardConfig.
 include device/realme/sm8635-common/BoardConfigCommon.mk
 
