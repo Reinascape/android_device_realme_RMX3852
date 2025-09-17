@@ -49,6 +49,9 @@ $(call soong_config_set,OPLUS_LINEAGE_VIBRATOR_HAL,INCLUDE_DIR,$(LOCAL_PATH)/vib
 # OMX
 TARGET_SUPPORTS_OMX_SERVICE := false
 
+# LiveDisplay
+$(call soong_config_set,OPLUS_LINEAGE_LIVEDISPLAY_HAL,ENABLE_SE,false)
+
 # Inherit from the common OEM chipset makefile.
 $(call inherit-product, device/realme/sm8635-common/common.mk)
 
