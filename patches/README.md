@@ -1,4 +1,4 @@
-Patches for LineageOS 22.2 only
+Patches for LineageOS 23.0 only
 
 Add support for Force LTE CA
 Add face unlock
