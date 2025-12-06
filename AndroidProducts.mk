@@ -5,4 +5,5 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/lineage_RMX3852.mk
+    $(LOCAL_DIR)/lineage_RMX3852_GAPPS.mk \
+    $(LOCAL_DIR)/lineage_RMX3852_VANILLA.mk

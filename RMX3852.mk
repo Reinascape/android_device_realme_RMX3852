@@ -14,20 +14,6 @@ $(call inherit-product, device/realme/RMX3852/device.mk)
 # Inherit some common Lineage stuff.
 $(call inherit-product, vendor/lineage/config/common_full_phone.mk)
 
-PRODUCT_NAME := lineage_RMX3852
-PRODUCT_DEVICE := RMX3852
-PRODUCT_MANUFACTURER := realme
-PRODUCT_BRAND := realme
-PRODUCT_MODEL := RMX3852
-
-# GAPPS Build
-$(call inherit-product, vendor/gapps/arm64/arm64-vendor.mk)
-PRODUCT_GMS_CLIENTID_BASE := android-realme
-LINEAGE_BUILDTYPE := GAPPS
-
-# VANILLA Build
-#LINEAGE_BUILDTYPE := VANILLA
-
 # Face unlock
 TARGET_FACE_UNLOCK_SUPPORTED := true
 
