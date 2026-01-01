@@ -1,5 +1,5 @@
 ## All proprietary files from this list, unless pinned and noted otherwise,
-## are from realme GT Neo6 (RMX3852_16.0.0.201(CN01)).
+## are from realme GT Neo6 (RMX3852_16.0.2.499(CN01)).
 
 abl.img;AB
 aop.img;AB

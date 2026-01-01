@@ -21,7 +21,7 @@ TARGET_FACE_UNLOCK_SUPPORTED := true
 WITH_ADB_INSECURE := true
 
 PRODUCT_BUILD_PROP_OVERRIDES += \
-    BuildFingerprint=realme/RMX3852/RE5C46L1:16/UKQ1.231108.001/U.424d3fe-211b4f3-2148cc4:user/release-keys \
+    BuildFingerprint=realme/RMX3852/RE5C46L1:16/UKQ1.231108.001/U.3b228b2-19715c6-19710ea:user/release-keys \
     DeviceName=RE5C46L1 \
     DeviceProduct=RMX3852 \
     SystemDevice=RE5C46L1 \

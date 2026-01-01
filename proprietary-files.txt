@@ -1,5 +1,5 @@
 ## All proprietary files from this list, unless pinned and noted otherwise,
-## are from realme GT Neo6 (RMX3852_16.0.0.201(CN01)).
+## are from realme GT Neo6 (RMX3852_16.0.2.499(CN01)).
 
 # Current blobs with deps disabled:
 # com.oplus.node.mvgsat, com.oplus.node.sstabphoto, com.qti.node.dewarp, com.qti.chi.override, libcamximageformatutils, libchifeature2 depends on multiple versions of the same aidl_interface: android.hardware.graphics.allocator-V1-ndk, android.hardware.graphics.allocator-V2-ndk-source
@@ -521,6 +521,9 @@ odm/etc/camera/gesture/tt_hand_det_v11.0.model
 odm/etc/camera/gesture/tt_hand_gesture_v11.1.model
 odm/etc/camera/gesture/tt_hand_kp_v6.0.model
 odm/etc/camera/gesture/tt_hand_lr_v3.0.model
+odm/etc/camera/meishe_lut/800t_blues.bin
+odm/etc/camera/meishe_lut/800t_hdr.bin
+odm/etc/camera/meishe_lut/800t_sdr.bin
 odm/etc/camera/meishe_lut/ByYo3If
 odm/etc/camera/meishe_lut/Cold.cube.rgb.bin
 odm/etc/camera/meishe_lut/DL_A_MoneyBall.bin
@@ -1096,6 +1099,8 @@ odm/lib64/libarcsoft_videoautozoom.so;FIX_SONAME
 odm/lib64/libc++_shared.so
 odm/lib64/libcalculator.so;FIX_SONAME
 odm/lib64/libcalculator_htp.so;FIX_SONAME
+odm/lib64/libcreateFDCLitecachebin.so
+odm/lib64/libcreateFDCcachebin.so
 odm/lib64/libcreatebin.so
 odm/lib64/libcvface_api.so
 odm/lib64/libeffect_custom.so
