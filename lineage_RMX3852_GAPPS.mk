@@ -8,4 +8,4 @@ PRODUCT_BRAND := realme
 PRODUCT_MODEL := RMX3852
 
 # GAPPS
-$(call inherit-product, vendor/gapps/arm64/arm64-vendor.mk)
+$(call inherit-product-if-exists, vendor/gapps/arm64/arm64-vendor.mk)
